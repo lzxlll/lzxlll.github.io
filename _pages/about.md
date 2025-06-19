@@ -1,49 +1,91 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: <blockquote style="color:#6A5ACD; font-size:1.2rem; font-style:italic; margin-top:0.5rem; margin-bottom:1.5rem;"> "Without data, you're just another person with an opinion." — <strong>W. Edwards Deming</strong></blockquote>
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<!-- ========================================================= -->
+<!-- 🎨  You can further tweak colors in `assets/css/custom.scss` -->
+<!-- ========================================================= -->
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<h2 style="color:#B22222; font-weight:700;">🛰️ Research</h2>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### 🗂️ Chinese Online Job Posting Dataset
+I maintain a large-scale dataset that links online job postings to firm registration records:
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- <span style="color:#1E90FF;">🔎 Quick view</span>: [*Hugging Face*](https://huggingface.co/datasets/Zexuan/soc_data)
+- <span style="color:#1E90FF;">📖 Detailed repo</span>: [*Notion Page Link*](https://www.notion.so/Job-Posting-and-Firm-Registration-Repo-8a31aa84a1124c61a7e3b02ab71d2620?pvs=21)
 
-**Markdown generator**
+### 💰 Funding
+> <em>The Impact of Automation and Artificial Intelligence on the Unincorporated Firm's Market Entry</em>, <strong>Principal Investigator</strong>, National Science Foundation of China, #72103098, 2021–2024.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<hr/>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<h2 style="color:#B22222; font-weight:700;">📑 Selected Publications</h2>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+1. *Computerization and the Decline of Unincorporated Self‑Employment*, with Yao‑yu Chih & Sun Lee, <strong>Journal of Human Capital</strong> (2024).
+2. [*The Puzzle of Change in Employment and Wage in Routine‑Intensive Occupations*](https://link.springer.com/article/10.1007/s00181-023-02440-8), with Pallab Ghosh, <strong>Empirical Economics</strong> (2023).
+3. [*Incumbents' Pricing and Non‑pricing Responses to Entry in Vertically Differentiated Markets*](https://www.sciencedirect.com/science/article/abs/pii/S0969699722000989), with Christoph Bauner, <strong>Journal of Air Transport Management</strong> (2022, lead article).
+4. [*Heterogeneous Price Effects and Increased Price Dispersion from Quantity‑based Congestion Management*](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12991), with Haojun Yu & Sun Lee, <strong>Economic Inquiry</strong> (2021).
+5. [*Effects of Motherhood Timing, Breast‑milk Substitutes and Education on the Duration of Breastfeeding: Evidence from Egypt*](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20301406), with Pallab Ghosh & Firat Demir, <strong>World Development</strong> (2020).
+6. [*Ownership and Pricing Response to Entry*](https://www.sciencedirect.com/science/article/abs/pii/S0165176519304276), <strong>Economics Letters</strong> (2019).
+7. [*Do State Minimum Wages Affect the Incarceration Ratio?*](https://onlinelibrary.wiley.com/doi/abs/10.1002/soej.12400), with Pallab Ghosh & Gary Hoover, <strong>Southern Economic Journal</strong> (2019).
+8. [*Coauthorship and the Gender Gap in Top Economics Journal Publications*](https://www.tandfonline.com/doi/abs/10.1080/13504851.2019.1644420), with Pallab Ghosh, <strong>Applied Economics Letters</strong> (2019).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<hr/>
+
+<h2 style="color:#B22222; font-weight:700;">📝 Working Papers</h2>
+
+- *The Safety Perceptions in Determining Transportation Cost Elasticity*, with Yao‑yu Chih & Sun Lee — <span style="color:#DAA520;">submitted</span>.
+- *Vertical Connection by Data: Evidence from Job Postings in China*, with Zhiyuan Chen & Yao‑yu Chih — <span style="color:#DAA520;">submitted</span>.
+- *Data Technologies, Branch Expansions and Turnovers: Evidence from Job Postings in China*, with Zhiyuan Chen & Xiangyu Feng.
+- *Data Intensity and Public Safety* (in Chinese), with Chong Peng & Weizeng Sun.
+
+<h3>🚧 Projects in Progress</h3>
+
+- *Airline's Response to Temporary and Permanent Shocks*, with Qihong Liu & Davide Proserpio.
+
+<hr/>
+
+<h2 style="color:#B22222; font-weight:700;">🎓 Education</h2>
+
+- **Ph.D. in Economics**, University of Oklahoma, 2016 (Norman, USA).
+
+<hr/>
+
+<h2 style="color:#B22222; font-weight:700;">📅 Conferences</h2>
+
+- **2024**: AMES, CES (China Economist Society), ESIF Economics and AI+ML
+- **2023**: CES (China Economist Society), Chinese Economic Association (UK/Europe), NSF PI Meeting, China Economics Annual Conference, 3rd CCER-NCER Chinese Economics, 2023 Symposium on AI and Digital Economics
+- **2019**: AEA, International Industrial Organization Conference (IIOC), WEA
+- **2018**: AMES, SEA, IO Mini Workshop (SHUFE), China International Conference in Macroeconomics
+- **2017**: AEA, SEA, IO Mini Workshop (SHUFE)
+- **2016**: International Industrial Organization Conference (Rising Star Session, IIOC)
+- **2015**: SEA
+
+<hr/>
+
+<h2 style="color:#B22222; font-weight:700;">🛠️ Skills & Tools</h2>
+
+🐍 Python · 📊 Stata · 📄 LaTeX 
+
+
+<h2 style="color:#B22222; font-weight:700;">🗣️ Languages</h2>
+Chinese (native) · English (proficient)
+
+<h2 style="color:#B22222; font-weight:700;">📚 Teaching</h2>
+
+- Econometrics — Nanjing Audit University (Fall 2021–2024)
+- International Investment & Risk Control — Nanjing Audit University (Fall 2021)
+- Data Analysis — Tianjin University of Finance & Economics (Spring 2018)
+- Modelling & Data Analysis — Tianjin University of Finance & Economics (Fall 2017)
+- Principles of Macroeconomics — University of Oklahoma (2013–2015)
+
+---
+
+<p align="center" style="font-size:0.9rem; color:gray;">Last updated: {{ "now" | date: "%Y-%m-%d" }} · Built with <a href="https://github.com/academicpages/academicpages.github.io">academicpages</a> 💖</p>

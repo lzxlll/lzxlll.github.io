@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "刘泽轩/ Zexuan Liu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://lzxlll.github.io/files/profile.jpg"
+  avatar           : "profile.jpg"
   name             : "Zexuan liu"
-  pronouns         : # example: "she/her"  
-  bio              : "Assitant Professor in Economics"
-  location         : "Nanjing"
+  pronouns         : "Assitant Professor in Economics"  
+  bio              : "I Study Digital Economy, Crime, and Firm Responses to Shocks"
+  location         : "Nanjing, China"
   employer         : "Nanjing Audit University"
   uri              : # URL
   email            : "zxliu@nau.edu.cn" 
@@ -37,6 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=9uQM4scAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-6645-8274"
+  Hugging Face     : "https://huggingface.co/Zexuan"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "researchgate.net/profile/Zexuan-Liu-2?ev=hdr_xprf&_sg=pR3i8jfLM0WvFPmWT7F0NJImDQ9fHH0U-3QGsqYcxxpIWZ5v8K_8yAqSHjiUtWNTsC5xOeqYP604aaIYwfQynHef&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19"
