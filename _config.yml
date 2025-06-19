@@ -40,7 +40,7 @@ author:
   Hugging Face     : "https://huggingface.co/Zexuan"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "researchgate.net/profile/Zexuan-Liu-2?ev=hdr_xprf&_sg=pR3i8jfLM0WvFPmWT7F0NJImDQ9fHH0U-3QGsqYcxxpIWZ5v8K_8yAqSHjiUtWNTsC5xOeqYP604aaIYwfQynHef&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19"
+  researchgate     : "https://www.researchgate.net/profile/Zexuan-Liu-2?ev=hdr_xprf"
   scopus           : # URL
 
   # Repositories and software development
