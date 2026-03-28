@@ -9,47 +9,34 @@ redirect_from:
 
 {% include base_path %}
 
-<div class="section-card">
-<h2>Education</h2>
+## Education
 
 <div class="cv-entry">
   <div class="cv-title">Ph.D. in Economics</div>
   <div class="cv-meta">University of Oklahoma, Norman, USA &middot; 2016</div>
 </div>
-</div>
 
-<div class="section-card">
-<h2>Employment</h2>
+## Employment
 
 <div class="cv-entry">
   <div class="cv-title">Assistant Professor in Economics</div>
   <div class="cv-meta">Nanjing Audit University, Nanjing, China &middot; 2020 &ndash; Present</div>
 </div>
-</div>
 
-<div class="section-card">
-<h2>Research Interests</h2>
+## Research Interests
 
-<div class="skill-tags" style="margin-top: 0.8rem;">
-  <span class="skill-tag">Digital Economy</span>
-  <span class="skill-tag">Crime</span>
-  <span class="skill-tag">Firm Responses to Shocks</span>
-  <span class="skill-tag">Industrial Organization</span>
-  <span class="skill-tag">Applied Econometrics</span>
-</div>
-</div>
+Industrial Organization, Digital Economy, Labor Economics, Applied Econometrics
 
-<div class="section-card">
-<h2>Funding</h2>
+## Funding
 
 <div class="cv-entry">
   <div class="cv-title"><em>The Impact of Automation and Artificial Intelligence on the Unincorporated Firm's Market Entry</em></div>
   <div class="cv-meta">Principal Investigator &middot; National Science Foundation of China, #72103098 &middot; 2021&ndash;2024</div>
 </div>
-</div>
 
-<div class="section-card">
-<h2>Publications</h2>
+<hr class="section-divider">
+
+## Publications
 
 <ol class="pub-list">
 <li><em>Computerization and the Decline of Unincorporated Self-Employment</em>, with Yao-yu Chih &amp; Sun Lee, <span class="journal">Journal of Human Capital</span> <span class="year-badge">2024</span></li>
@@ -61,21 +48,20 @@ redirect_from:
 <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/soej.12400"><em>Do State Minimum Wages Affect the Incarceration Ratio?</em></a>, with Pallab Ghosh &amp; Gary Hoover, <span class="journal">Southern Economic Journal</span> <span class="year-badge">2019</span></li>
 <li><a href="https://www.tandfonline.com/doi/abs/10.1080/13504851.2019.1644420"><em>Coauthorship and the Gender Gap in Top Economics Journal Publications</em></a>, with Pallab Ghosh, <span class="journal">Applied Economics Letters</span> <span class="year-badge">2019</span></li>
 </ol>
-</div>
 
-<div class="section-card">
-<h2>Working Papers</h2>
+## Working Papers
 
-<ul class="pub-list" style="counter-reset: none;">
-<li style="padding-left: 1rem;"><em>The Safety Perceptions in Determining Transportation Cost Elasticity</em>, with Yao-yu Chih &amp; Sun Lee <span class="status-badge submitted">Submitted</span></li>
-<li style="padding-left: 1rem;"><em>Vertical Connection by Data: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Yao-yu Chih <span class="status-badge submitted">Submitted</span></li>
-<li style="padding-left: 1rem;"><em>Data Technologies, Branch Expansions and Turnovers: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Xiangyu Feng</li>
-<li style="padding-left: 1rem;"><em>Data Intensity and Public Safety</em> (in Chinese), with Chong Peng &amp; Weizeng Sun</li>
+<ul class="plain-list">
+<li><em>Task-biased Technology and the Organization of Production</em>, with Zhiyuan Chen &amp; Xiangyu Feng <span class="status-badge forthcoming">Forthcoming</span></li>
+<li><em>The Safety Perceptions in Determining Transportation Cost Elasticity</em>, with Yao-yu Chih &amp; Sun Lee <span class="status-badge submitted">Submitted</span></li>
+<li><em>Vertical Connection by Data: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Yao-yu Chih <span class="status-badge submitted">Submitted</span></li>
+<li><em>Data Technologies, Branch Expansions and Turnovers: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Xiangyu Feng</li>
+<li><em>Data Intensity and Public Safety</em> (in Chinese), with Chong Peng &amp; Weizeng Sun</li>
 </ul>
-</div>
 
-<div class="section-card">
-<h2>Conference Presentations</h2>
+<hr class="section-divider">
+
+## Conference Presentations
 
 <ul class="conf-list">
 <li><span class="conf-year">2024</span> AMES, CES (China Economist Society), ESIF Economics and AI+ML</li>
@@ -86,10 +72,10 @@ redirect_from:
 <li><span class="conf-year">2016</span> International Industrial Organization Conference (Rising Star Session, IIOC)</li>
 <li><span class="conf-year">2015</span> SEA</li>
 </ul>
-</div>
 
-<div class="section-card">
-<h2>Teaching</h2>
+<hr class="section-divider">
+
+## Teaching
 
 <div class="cv-entry">
   <div class="cv-title">Econometrics</div>
@@ -111,10 +97,8 @@ redirect_from:
   <div class="cv-title">Principles of Macroeconomics</div>
   <div class="cv-meta">University of Oklahoma &middot; 2013&ndash;2015</div>
 </div>
-</div>
 
-<div class="section-card">
-<h2>Skills &amp; Languages</h2>
+## Skills &amp; Languages
 
 <div class="skill-tags">
   <span class="skill-tag">Python</span>
@@ -122,5 +106,4 @@ redirect_from:
   <span class="skill-tag">LaTeX</span>
   <span class="skill-tag">Chinese (native)</span>
   <span class="skill-tag">English (proficient)</span>
-</div>
 </div>

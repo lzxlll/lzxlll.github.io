@@ -7,16 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-<div class="page-motto">
-  "Without data, you're just another person with an opinion." — <strong>W. Edwards Deming</strong>
-</div>
+{% include base_path %}
 
 I am an Assistant Professor of Economics at Nanjing Audit University. My research focuses on **digital economy**, **crime**, and **firm responses to shocks**, using large-scale data and applied econometric methods.
 
-<div class="section-card">
-<h2>Research</h2>
+## Research Interests
 
-<h3>Chinese Online Job Posting Dataset</h3>
+Industrial Organization, Digital Economy, Labor Economics, Applied Econometrics
+
+## Data
+
+### Chinese Online Job Posting Dataset
 
 I maintain a large-scale dataset linking online job postings to firm registration records:
 
@@ -26,16 +27,16 @@ I maintain a large-scale dataset linking online job postings to firm registratio
 <a href="https://www.notion.so/Job-Posting-and-Firm-Registration-Repo-8a31aa84a1124c61a7e3b02ab71d2620?pvs=21"><i class="fas fa-book"></i> Detailed Notion Repo</a>
 </div>
 
-<h3>Funding</h3>
+## Funding
 
 <div class="funding-block">
 <em>The Impact of Automation and Artificial Intelligence on the Unincorporated Firm's Market Entry</em><br>
-<strong>Principal Investigator</strong>, National Science Foundation of China, #72103098, 2021–2024.
-</div>
+<strong>Principal Investigator</strong>, National Science Foundation of China, #72103098, 2021&ndash;2024.
 </div>
 
-<div class="section-card">
-<h2>Selected Publications</h2>
+<hr class="section-divider">
+
+## Publications
 
 <ol class="pub-list">
 <li><em>Computerization and the Decline of Unincorporated Self-Employment</em>, with Yao-yu Chih &amp; Sun Lee, <span class="journal">Journal of Human Capital</span> <span class="year-badge">2024</span></li>
@@ -54,66 +55,32 @@ I maintain a large-scale dataset linking online job postings to firm registratio
 
 <li><a href="https://www.tandfonline.com/doi/abs/10.1080/13504851.2019.1644420"><em>Coauthorship and the Gender Gap in Top Economics Journal Publications</em></a>, with Pallab Ghosh, <span class="journal">Applied Economics Letters</span> <span class="year-badge">2019</span></li>
 </ol>
-</div>
 
-<div class="section-card">
-<h2>Working Papers</h2>
+<hr class="section-divider">
 
-<ul class="pub-list" style="counter-reset: none;">
-<li style="padding-left: 1rem;"><em>The Safety Perceptions in Determining Transportation Cost Elasticity</em>, with Yao-yu Chih &amp; Sun Lee <span class="status-badge submitted">Submitted</span></li>
-<li style="padding-left: 1rem;"><em>Vertical Connection by Data: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Yao-yu Chih <span class="status-badge submitted">Submitted</span></li>
-<li style="padding-left: 1rem;"><em>Data Technologies, Branch Expansions and Turnovers: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Xiangyu Feng</li>
-<li style="padding-left: 1rem;"><em>Data Intensity and Public Safety</em> (in Chinese), with Chong Peng &amp; Weizeng Sun</li>
+## Working Papers
+
+<ul class="plain-list">
+<li><em>Task-biased Technology and the Organization of Production</em>, with Zhiyuan Chen &amp; Xiangyu Feng <span class="status-badge forthcoming">Forthcoming</span></li>
+<li><em>The Safety Perceptions in Determining Transportation Cost Elasticity</em>, with Yao-yu Chih &amp; Sun Lee <span class="status-badge submitted">Submitted</span></li>
+<li><em>Vertical Connection by Data: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Yao-yu Chih <span class="status-badge submitted">Submitted</span></li>
+<li><em>Data Technologies, Branch Expansions and Turnovers: Evidence from Job Postings in China</em>, with Zhiyuan Chen &amp; Xiangyu Feng</li>
+<li><em>Data Intensity and Public Safety</em> (in Chinese), with Chong Peng &amp; Weizeng Sun</li>
 </ul>
 
-<h3>Projects in Progress</h3>
+### Projects in Progress
 
-<ul class="pub-list" style="counter-reset: none;">
-<li style="padding-left: 1rem;"><em>Airline's Response to Temporary and Permanent Shocks</em>, with Qihong Liu &amp; Davide Proserpio <span class="status-badge in-progress">In Progress</span></li>
+<ul class="plain-list">
+<li><em>Airline's Response to Temporary and Permanent Shocks</em>, with Qihong Liu &amp; Davide Proserpio <span class="status-badge in-progress">In Progress</span></li>
 </ul>
-</div>
 
-<div class="section-card">
-<h2>Education</h2>
+<hr class="section-divider">
 
-<div class="cv-entry">
-  <div class="cv-title">Ph.D. in Economics</div>
-  <div class="cv-meta">University of Oklahoma, Norman, USA &middot; 2016</div>
-</div>
-</div>
-
-<div class="section-card">
-<h2>Conferences</h2>
-
-<ul class="conf-list">
-<li><span class="conf-year">2024</span> AMES, CES (China Economist Society), ESIF Economics and AI+ML</li>
-<li><span class="conf-year">2023</span> CES, Chinese Economic Association (UK/Europe), NSF PI Meeting, China Economics Annual Conference, 3rd CCER-NCER, Symposium on AI and Digital Economics</li>
-<li><span class="conf-year">2019</span> AEA, International Industrial Organization Conference (IIOC), WEA</li>
-<li><span class="conf-year">2018</span> AMES, SEA, IO Mini Workshop (SHUFE), China International Conference in Macroeconomics</li>
-<li><span class="conf-year">2017</span> AEA, SEA, IO Mini Workshop (SHUFE)</li>
-<li><span class="conf-year">2016</span> International Industrial Organization Conference (Rising Star Session, IIOC)</li>
-<li><span class="conf-year">2015</span> SEA</li>
-</ul>
-</div>
-
-<div class="section-card">
-<h2>Skills &amp; Languages</h2>
-
-<div class="skill-tags">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">Stata</span>
-  <span class="skill-tag">LaTeX</span>
-  <span class="skill-tag">Chinese (native)</span>
-  <span class="skill-tag">English (proficient)</span>
-</div>
-</div>
-
-<div class="section-card">
-<h2>Teaching</h2>
+## Teaching
 
 <div class="cv-entry">
   <div class="cv-title">Econometrics</div>
-  <div class="cv-meta">Nanjing Audit University &middot; Fall 2021-2024</div>
+  <div class="cv-meta">Nanjing Audit University &middot; Fall 2021&ndash;2024</div>
 </div>
 <div class="cv-entry">
   <div class="cv-title">International Investment &amp; Risk Control</div>
@@ -129,6 +96,38 @@ I maintain a large-scale dataset linking online job postings to firm registratio
 </div>
 <div class="cv-entry">
   <div class="cv-title">Principles of Macroeconomics</div>
-  <div class="cv-meta">University of Oklahoma &middot; 2013-2015</div>
+  <div class="cv-meta">University of Oklahoma &middot; 2013&ndash;2015</div>
 </div>
+
+<hr class="section-divider">
+
+## Conference Presentations
+
+<ul class="conf-list">
+<li><span class="conf-year">2024</span> AMES, CES, ESIF Economics and AI+ML</li>
+<li><span class="conf-year">2023</span> CES, Chinese Economic Association (UK/Europe), NSF PI Meeting, China Economics Annual Conference, 3rd CCER-NCER, Symposium on AI and Digital Economics</li>
+<li><span class="conf-year">2019</span> AEA, International Industrial Organization Conference (IIOC), WEA</li>
+<li><span class="conf-year">2018</span> AMES, SEA, IO Mini Workshop (SHUFE), China International Conference in Macroeconomics</li>
+<li><span class="conf-year">2017</span> AEA, SEA, IO Mini Workshop (SHUFE)</li>
+<li><span class="conf-year">2016</span> International Industrial Organization Conference (Rising Star Session, IIOC)</li>
+<li><span class="conf-year">2015</span> SEA</li>
+</ul>
+
+<hr class="section-divider">
+
+## Education
+
+<div class="cv-entry">
+  <div class="cv-title">Ph.D. in Economics</div>
+  <div class="cv-meta">University of Oklahoma, Norman, USA &middot; 2016</div>
+</div>
+
+## Skills &amp; Languages
+
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">Stata</span>
+  <span class="skill-tag">LaTeX</span>
+  <span class="skill-tag">Chinese (native)</span>
+  <span class="skill-tag">English (proficient)</span>
 </div>
