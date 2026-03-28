@@ -1,0 +1,10 @@
+---
+layout: page
+title: projects
+permalink: /projects/
+description:
+nav: false
+nav_order: 5
+display_categories:
+horizontal: false
+---

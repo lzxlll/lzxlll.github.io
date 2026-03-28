@@ -1,0 +1,40 @@
+cv:
+  name: Zexuan Liu
+  label: Assistant Professor in Economics
+  email: zxliu@nau.edu.cn
+  location: Nanjing, China
+  summary: Assistant Professor in Economics at Nanjing Audit University. Research on digital economy, labor economics, and industrial organization.
+
+  sections:
+    Education:
+      - institution: University of Oklahoma
+        location: Norman, USA
+        area: Economics
+        studyType: Ph.D.
+        start_date: 2012
+        end_date: 2016
+
+    Experience:
+      - company: Nanjing Audit University
+        position: Assistant Professor in Economics
+        location: Nanjing, China
+        start_date: 2020
+        end_date:
+        summary: Teaching Econometrics and conducting research on digital economy and labor markets.
+
+    Awards:
+      - title: "The Impact of Automation and Artificial Intelligence on the Unincorporated Firm's Market Entry"
+        date: 2021
+        awarder: National Science Foundation of China
+        summary: "Principal Investigator, Grant #72103098, 2021-2024"
+
+    Skills:
+      - name: Research Methods
+        icon: fa-solid fa-hashtag
+        keywords: "Applied Econometrics, Stata, Python, LaTeX"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+      - name: English
+        summary: "Proficient"
