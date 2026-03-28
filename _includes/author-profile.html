@@ -62,6 +62,9 @@
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
+      {% if author['Hugging Face'] %}
+        <li><a href="{{ author['Hugging Face'] }}"><i class="fas fa-fw fa-robot icon-pad-right" aria-hidden="true"></i>Hugging Face</a></li>
+      {% endif %}
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}

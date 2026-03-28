@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="highlight-box">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -20,17 +20,20 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <div class="section-card">
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    {% if title_shown %}
+        </div>
+    {% endif %}
   {% endfor %}
 {% else %}
+  <div class="section-card">
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
+  </div>
 {% endif %}
-
-
-

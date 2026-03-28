@@ -1,0 +1,490 @@
+/* ============================================================
+   CUSTOM STYLES — Modern Academic Theme for Zexuan Liu
+   ============================================================ */
+
+/* --- Smooth scrolling & selection --- */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(13, 115, 119, 0.15);
+  color: inherit;
+}
+
+/* --- Body refinements --- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  line-height: 1.7;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+/* --- Masthead / Navigation Bar --- */
+.masthead {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(250, 251, 252, 0.92) !important;
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+html[data-theme="dark"] .masthead {
+  background: rgba(26, 31, 46, 0.92) !important;
+}
+
+.masthead::after {
+  display: none !important;
+}
+
+.greedy-nav a.site-title {
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: -0.01em;
+  color: var(--accent-secondary, #1e3a5f) !important;
+}
+
+.greedy-nav .visible-links a {
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.greedy-nav .visible-links a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 70%;
+  height: 2px;
+  background: var(--accent-primary, #0d7377);
+  border-radius: 2px;
+  transition: transform 0.25s ease;
+}
+
+.greedy-nav .visible-links a:hover::before {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.greedy-nav .visible-links a:hover {
+  background: var(--accent-primary-light, rgba(13, 115, 119, 0.06));
+  color: var(--accent-primary, #0d7377) !important;
+}
+
+/* --- Author Sidebar --- */
+.sidebar {
+  scrollbar-width: thin;
+}
+
+.author__avatar img {
+  border-radius: 50% !important;
+  border: 3px solid var(--accent-primary, #0d7377) !important;
+  padding: 3px;
+  background: var(--global-bg-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.author__avatar img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.author__name {
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: -0.01em;
+  margin-top: 0.5rem;
+}
+
+.author__pronouns {
+  font-size: 0.85rem !important;
+  color: var(--accent-primary, #0d7377) !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  margin-top: 0.1rem;
+}
+
+.author__bio {
+  font-size: 0.88rem !important;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+  margin-top: 0.3rem;
+}
+
+.author__urls-wrapper {
+  margin-top: 0.5rem;
+}
+
+.author__urls-wrapper .btn--inverse {
+  display: none;
+}
+
+.author__urls.social-icons li {
+  margin-bottom: 0.15rem;
+}
+
+.author__urls.social-icons a {
+  font-size: 0.82rem;
+  padding: 0.25rem 0;
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.author__urls.social-icons a:hover {
+  color: var(--accent-primary, #0d7377) !important;
+}
+
+.author__urls.social-icons .icon-pad-right {
+  margin-right: 0.4em;
+  width: 1.1em;
+  color: var(--accent-primary, #0d7377);
+}
+
+/* --- Page Content Area --- */
+.page__content {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.page__content h2 {
+  color: var(--section-heading-color, #1e3a5f);
+  font-weight: 700;
+  font-size: 1.45rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--accent-primary, #0d7377);
+  position: relative;
+}
+
+.page__content h3 {
+  color: var(--section-heading-color, #1e3a5f);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 1.8rem;
+}
+
+.page__content a {
+  color: var(--accent-primary, #0d7377);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.page__content a:hover {
+  text-decoration: none;
+  border-bottom-color: var(--accent-primary, #0d7377);
+}
+
+/* --- Section Cards (for homepage) --- */
+.section-card {
+  background: var(--card-bg, #ffffff);
+  border-radius: 10px;
+  padding: 1.5rem 1.8rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--card-shadow, 0 2px 8px rgba(0, 0, 0, 0.06));
+  border: 1px solid var(--global-border-color);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.section-card:hover {
+  box-shadow: var(--card-hover-shadow, 0 4px 16px rgba(0, 0, 0, 0.1));
+  transform: translateY(-1px);
+}
+
+.section-card h2 {
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+/* --- Publication list --- */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: pub-counter;
+}
+
+.pub-list li {
+  position: relative;
+  padding: 1rem 0 1rem 2.2rem;
+  border-bottom: 1px solid var(--global-border-color);
+  counter-increment: pub-counter;
+  line-height: 1.65;
+}
+
+.pub-list li:last-child {
+  border-bottom: none;
+}
+
+.pub-list li::before {
+  content: counter(pub-counter);
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--accent-primary, #0d7377);
+  background: var(--accent-primary-light, #e6f4f4);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-list .journal {
+  font-weight: 600;
+  color: var(--section-heading-color, #1e3a5f);
+}
+
+.pub-list .year-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  background: var(--accent-primary-light, #e6f4f4);
+  color: var(--accent-primary, #0d7377);
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
+/* --- Working paper status badge --- */
+.status-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  margin-left: 0.3rem;
+}
+
+.status-badge.submitted {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.in-progress {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+/* --- Quote / Motto --- */
+.page-motto {
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--global-text-color-light);
+  border-left: 3px solid var(--accent-primary, #0d7377);
+  padding: 0.6rem 1.2rem;
+  margin: 0 0 2rem 0;
+  background: var(--accent-primary-light, rgba(13, 115, 119, 0.04));
+  border-radius: 0 6px 6px 0;
+  line-height: 1.6;
+}
+
+.page-motto strong {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+
+/* --- Skills and tags --- */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--accent-primary-light, #e6f4f4);
+  color: var(--accent-primary, #0d7377);
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: 1px solid rgba(13, 115, 119, 0.15);
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: var(--accent-primary, #0d7377);
+  color: #ffffff;
+}
+
+/* --- Conference list --- */
+.conf-list {
+  list-style: none;
+  padding: 0;
+}
+
+.conf-list li {
+  padding: 0.4rem 0;
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.conf-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.85rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent-primary, #0d7377);
+}
+
+.conf-list .conf-year {
+  font-weight: 700;
+  color: var(--section-heading-color, #1e3a5f);
+  min-width: 3.5rem;
+  display: inline-block;
+}
+
+/* --- Data highlight box --- */
+.highlight-box {
+  background: linear-gradient(135deg, var(--accent-primary-light, #e6f4f4) 0%, rgba(30, 58, 95, 0.05) 100%);
+  border: 1px solid rgba(13, 115, 119, 0.15);
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.highlight-box a {
+  font-weight: 500;
+}
+
+/* --- Funding block --- */
+.funding-block {
+  background: var(--card-bg, #ffffff);
+  border-left: 3px solid var(--accent-primary, #0d7377);
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.8rem 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* --- Footer --- */
+.page__footer {
+  border-top: 2px solid var(--accent-primary, #0d7377);
+}
+
+.page__footer-copyright {
+  font-size: 0.78rem;
+  opacity: 0.8;
+}
+
+/* --- Archive pages --- */
+.archive__item-title {
+  font-weight: 600;
+}
+
+.archive__item-title a {
+  text-decoration: none !important;
+  color: var(--section-heading-color, #1e3a5f);
+  transition: color 0.2s ease;
+}
+
+.archive__item-title a:hover {
+  color: var(--accent-primary, #0d7377);
+}
+
+/* --- CV page styles --- */
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-entry {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.cv-entry:last-child {
+  border-bottom: none;
+}
+
+.cv-entry .cv-title {
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.cv-entry .cv-meta {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.15rem;
+}
+
+/* --- Responsive adjustments --- */
+@media screen and (max-width: 768px) {
+  .page__content h2 {
+    font-size: 1.25rem;
+  }
+
+  .section-card {
+    padding: 1.2rem;
+  }
+
+  .pub-list li {
+    padding-left: 1.8rem;
+  }
+}
+
+/* --- Smooth page entry animation --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#main .page {
+  animation: fadeInUp 0.4s ease-out both;
+}
+
+/* --- Print-friendly --- */
+@media print {
+  .masthead,
+  .sidebar,
+  .page__footer {
+    display: none !important;
+  }
+
+  .page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .section-card {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    break-inside: avoid;
+  }
+}

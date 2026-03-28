@@ -1,54 +1,63 @@
 /* ==========================================================================
-   DARK THEME
+   DARK THEME — Modern Academic
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$gray                       : #6b7280;
+$dark-gray                  : #374151;
+$darker-gray                : #1f2937;
+$light-gray                 : #b0b8c4;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #1a1f2e;
+$background-light           : #c0c7d0;
+$background-lighter         : #e2e5ea;
+$text                       : #e5e7eb;
+$link                       : #2dd4bf;
+$link-dark                  : #14b8a6;
+$link-light                 : #5eead4;
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #ef4444;
+$info-color                 : #2dd4bf;
+$notice-color               : #6b7280;
+$success-color              : #10b981;
+$warning-color              : #f59e0b;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.3);
+$global-transition          : all 0.25s ease-in-out;
+$masthead-height            : 64px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
+$sidebar-link-max-width     : 260px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
+    --global-footer-bg-color            : darken(#{$background}, 3%);
+    --global-border-color               : #2d3548;
+    --global-dark-border-color          : #374151;
+    --global-code-background-color      : #242b3d;
+    --global-code-text-color            : #e5e7eb;
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$link};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-thead-color                : #242b3d;
+
+    /* Custom accent colors for dark mode */
+    --accent-primary                    : #{$link};
+    --accent-primary-light              : rgba(45, 212, 191, 0.1);
+    --accent-secondary                  : #93c5fd;
+    --section-heading-color             : #93c5fd;
+    --card-bg                           : #242b3d;
+    --card-shadow                       : 0 2px 8px rgba(0, 0, 0, 0.2);
+    --card-hover-shadow                 : 0 4px 16px rgba(0, 0, 0, 0.3);
 }
