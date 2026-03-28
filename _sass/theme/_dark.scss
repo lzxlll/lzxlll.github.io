@@ -9,6 +9,7 @@ $darker-gray                : #1f2937;
 $light-gray                 : #b0b8c4;
 
 $background                 : #1a1f2e;
+$background-dark            : #151929;
 $background-light           : #c0c7d0;
 $background-lighter         : #e2e5ea;
 $text                       : #e5e7eb;
@@ -37,7 +38,7 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : darken(#{$background}, 3%);
+    --global-footer-bg-color            : #{$background-dark};
     --global-border-color               : #2d3548;
     --global-dark-border-color          : #374151;
     --global-code-background-color      : #242b3d;
