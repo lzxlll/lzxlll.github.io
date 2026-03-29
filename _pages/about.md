@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor in Economics, <a href='https://www.nau.edu.cn/'>Nanjing Audit University</a>
+subtitle: Associate Professor in Economics, <a href='https://www.nau.edu.cn/'>Nanjing Audit University</a>
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an Assistant Professor in Economics at [Nanjing Audit University](https://www.nau.edu.cn/). I received my Ph.D. in Economics from the [University of Oklahoma](https://www.ou.edu/) in 2016.
+I am an Associate Professor in Economics at [Nanjing Audit University](https://www.nau.edu.cn/). I received my Ph.D. in Economics from the [University of Oklahoma](https://www.ou.edu/) in 2016.
 
 My research interests include **Industrial Organization**, **Digital Economy**, **Labor Economics**, and **Applied Econometrics**. I study how digital technologies reshape markets, firms, and labor. My work examines topics such as automation's impact on self-employment, pricing responses to market entry, and the role of data in firm organization.
 

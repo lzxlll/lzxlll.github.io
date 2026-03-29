@@ -1,9 +1,9 @@
 cv:
   name: Zexuan Liu
-  label: Assistant Professor in Economics
+  label: Associate Professor in Economics
   email: zxliu@nau.edu.cn
   location: Nanjing, China
-  summary: Assistant Professor in Economics at Nanjing Audit University. Research on digital economy, labor economics, and industrial organization.
+  summary: Associate Professor in Economics at Nanjing Audit University. Research on digital economy, labor economics, and industrial organization.
 
   sections:
     Education:
@@ -16,7 +16,7 @@ cv:
 
     Experience:
       - company: Nanjing Audit University
-        position: Assistant Professor in Economics
+        position: Associate Professor in Economics
         location: Nanjing, China
         start_date: 2020
         end_date:

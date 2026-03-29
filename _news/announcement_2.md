@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-06-01
+date: 2026-03-01
 inline: true
 related_posts: false
 ---
 
-"Task-biased Technology and the Organization of Production" (with Zhiyuan Chen & Xiangyu Feng) forthcoming.
+Paper "中国专利质量的测度、变化机制与经济增长效应" published in **经济研究 (Economic Research Journal)** 2026(03).
