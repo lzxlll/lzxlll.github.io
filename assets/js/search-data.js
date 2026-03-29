@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "Publications and working papers in reverse chronological order.",
+  },{id: "nav-research",
+          title: "Research",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/research/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -33,8 +33,11 @@ ninja.data = [{
         },{id: "news-paper-computerization-and-the-decline-of-unincorporated-self-employment-published-in-journal-of-human-capital-2024",
           title: 'Paper “Computerization and the Decline of Unincorporated Self-Employment” published in Journal of Human...',
           description: "",
-          section: "News",},{id: "news-task-biased-technology-and-the-organization-of-production-with-zhiyuan-chen-amp-amp-xiangyu-feng-forthcoming",
-          title: '“Task-biased Technology and the Organization of Production” (with Zhiyuan Chen &amp;amp;amp; Xiangyu Feng)...',
+          section: "News",},{id: "news-paper-中国专利质量的测度-变化机制与经济增长效应-published-in-经济研究-economic-research-journal-2026-03",
+          title: 'Paper “中国专利质量的测度、变化机制与经济增长效应” published in 经济研究 (Economic Research Journal) 2026(03).',
+          description: "",
+          section: "News",},{id: "news-data-driven-vertical-integration-evidence-from-large-scale-job-postings-received-revise-and-resubmit-at-management-science",
+          title: '“Data-Driven Vertical Integration: Evidence from Large-Scale Job Postings” received Revise and Resubmit at...',
           description: "",
           section: "News",},{id: "teachings-data-analysis",
           title: 'Data Analysis',
