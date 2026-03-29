@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<p style="font-size: 0.9em; color: gray;">* Corresponding Author</p>
+
 ## Revise and Resubmit
 
 <div class="publications">
