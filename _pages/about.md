@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Associate Professor in Economics, <a href='https://www.nau.edu.cn/'>Nanjing Audit University</a>
 
