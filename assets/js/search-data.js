@@ -30,10 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-paper-computerization-and-the-decline-of-unincorporated-self-employment-published-in-journal-of-human-capital-2024",
-          title: 'Paper “Computerization and the Decline of Unincorporated Self-Employment” published in Journal of Human...',
-          description: "",
-          section: "News",},{id: "news-paper-中国专利质量的测度-变化机制与经济增长效应-published-in-经济研究-economic-research-journal-2026-03",
+        },{id: "news-paper-中国专利质量的测度-变化机制与经济增长效应-published-in-经济研究-economic-research-journal-2026-03",
           title: 'Paper “中国专利质量的测度、变化机制与经济增长效应” published in 经济研究 (Economic Research Journal) 2026(03).',
           description: "",
           section: "News",},{id: "news-data-driven-vertical-integration-evidence-from-large-scale-job-postings-received-revise-and-resubmit-at-management-science",
