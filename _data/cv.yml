@@ -13,6 +13,18 @@ cv:
         studyType: Ph.D.
         start_date: 2012
         end_date: 2016
+      - institution: Texas Tech University
+        location: Lubbock, USA
+        area: Economics
+        studyType: M.A.
+        start_date: 2010
+        end_date: 2012
+      - institution: Tianjin University of Finance & Economics
+        location: Tianjin, China
+        area: Finance
+        studyType: B.A.
+        start_date: 2005
+        end_date: 2009
 
     Experience:
       - company: Nanjing Audit University
@@ -20,18 +32,109 @@ cv:
         location: Nanjing, China
         start_date: 2020
         end_date:
-        summary: Teaching Econometrics and conducting research on digital economy and labor markets.
+        summary: Teaching and conducting research on digital economy, labor markets, and industrial organization.
+      - company: Tianjin University of Finance & Economics
+        position: Assistant Professor in Economics
+        location: Tianjin, China
+        start_date: 2016
+        end_date: 2020
+        summary: Taught undergraduate courses and conducted research in economics.
+
+    Working Papers:
+      - title: "Data-Driven Vertical Integration: Evidence from Large-Scale Job Postings"
+        date: 2026
+        summary: "With Zhiyuan Chen, Fuxin Zhai, Yaoyu Chih. Revise and Resubmit at Management Science."
+      - title: "Learning without Experience: Data Technology and Firm Scope"
+        date: 2026
+        summary: "With Liang Chen, Zhiyuan Chen. Revise and Resubmit at Strategic Management Journal."
+      - title: "The Impact of Firms' Data-oriented Organizational Capital on Their Resilience to Shocks"
+        date: 2024
+        summary: "With Liang Chen, Yaoyu Chih. Working paper."
+      - title: "How does AI and Data Technology Affect Occupational Skills and Tasks Content"
+        date: 2024
+        summary: "With Yao-Yu Chih, Pallab Ghosh. Working paper."
+
+    Publications:
+      - title: "中国专利质量的测度、变化机制与经济增长效应"
+        date: 2026
+        summary: "Chen, Zhiyuan, Yiran Zhang, Jie Zhang, and Zexuan Liu*. Published in 经济研究, 2026, (03)."
+      - title: "Computerization and the Decline of Unincorporated Self-Employment"
+        date: 2024
+        summary: "Liu*, Zexuan, Sun Lee, and Yao-yu Chih. Published in Journal of Human Capital, 2024."
+      - title: "The Puzzle of Changes in Employment and Wages in Routine Task-Intensive Occupations"
+        date: 2023
+        summary: "Ghosh, Pallab, and Zexuan Liu*. Published in Empirical Economics, 2023."
+      - title: "Incumbents' Pricing and Non-pricing Responses to Entry in Vertically Differentiated Markets"
+        date: 2022
+        summary: "Bauner, Christoph, and Zexuan Liu*. Published in Journal of Air Transport Management, 2022. Lead article."
+      - title: "Heterogeneous Price Effects and Increased Price Dispersion from Quantity-based Congestion Management"
+        date: 2021
+        summary: "Lee, Sun, Zexuan Liu*, and Haojun Yu. Published in Economic Inquiry, 2021."
+      - title: "Effects of Motherhood Timing, Breast-milk Substitutes and Education on the Duration of Breastfeeding: Evidence from Egypt"
+        date: 2020
+        summary: "Demir, Firat, Pallab Ghosh, and Zexuan Liu*. Published in World Development, 2020."
+      - title: "Ownership and Pricing Response to Entry"
+        date: 2019
+        summary: "Liu*, Zexuan. Published in Economics Letters, 2019."
+      - title: "Do State Minimum Wages Affect the Incarceration Rate?"
+        date: 2019
+        summary: "Ghosh, Pallab, Gary Hoover, and Zexuan Liu. Published in Southern Economic Journal, 2019."
+      - title: "Coauthorship and the Gender Gap in Top Economics Journal Publications"
+        date: 2019
+        summary: "Ghosh, Pallab, and Zexuan Liu*. Published in Applied Economics Letters, 2019."
 
     Awards:
       - title: "The Impact of Automation and Artificial Intelligence on the Unincorporated Firm's Market Entry"
         date: 2021
-        awarder: National Science Foundation of China
-        summary: "Principal Investigator, Grant #72103098, 2021-2024"
+        awarder: National Natural Science Foundation of China (NSFC)
+        summary: "Principal Investigator, Grant #72103098, ¥300,000, 2021–2024"
+      - title: "Research Incentive Award"
+        date: 2024
+        awarder: School of Economics, Nanjing Audit University
+        summary: "2024–2025"
+      - title: "Research Incentive Award"
+        date: 2020
+        awarder: School of Economics, Nanjing Audit University
+        summary: "2020–2021"
+
+    Certificates:
+      - title: "Patent: 基于专利文本相似度的专利质量测算方法及系统"
+        date: 2025
+        summary: "Application No. 202511435652.2. Inventors: 陈志远; 刘泽轩; 赵乡阳. Status: 实质审查"
+      - title: "Software Copyright: 基于大语言模型的招聘职位分类系统V1.0"
+        date: 2024
+        summary: "Registration No. 软著登字第13540339号. Owner: 刘泽轩"
+
+    Teaching:
+      - title: "Econometrics"
+        date: 2021
+        summary: "Nanjing Audit University, BA, Fall 2021–2024"
+      - title: "International Investment & Risk Control"
+        date: 2021
+        summary: "Nanjing Audit University, BA, Fall 2021"
+      - title: "Data Analysis"
+        date: 2018
+        summary: "Tianjin University of Finance & Economics, BA, Spring 2018"
+      - title: "Management"
+        date: 2018
+        summary: "Tianjin University of Finance & Economics, BA, Spring 2018"
+      - title: "Modelling & Data Analysis"
+        date: 2017
+        summary: "Tianjin University of Finance & Economics, BA, Fall 2017"
+      - title: "Data Processing and Analysis in Economics"
+        date: 2019
+        summary: "Tianjin University of Finance & Economics, BA, 2019–2020"
+      - title: "Principles of Macroeconomics"
+        date: 2013
+        summary: "University of Oklahoma, BA, Fall 2013–2015"
+      - title: "Calculus"
+        date: 2012
+        summary: "University of Oklahoma, BA, Fall 2012"
 
     Skills:
       - name: Research Methods
         icon: fa-solid fa-hashtag
-        keywords: "Applied Econometrics, Stata, Python, LaTeX"
+        keywords: "Applied Econometrics, Stata, Python, LaTeX, Natural Language Processing, Machine Learning"
 
     Languages:
       - name: Chinese
