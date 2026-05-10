@@ -51,12 +51,12 @@ ninja.data = [{
               window.location.href = "/teachings/data-analysis/";
             },},{id: "teachings-data-processing-and-analysis-in-economics",
           title: 'Data Processing and Analysis in Economics',
-          description: "Tianjin University of Finance &amp; Economics, 2019–2020 | BA",
+          description: "Tianjin University of Finance &amp; Economics, 2019-2020 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-processing/";
             },},{id: "teachings-econometrics",
           title: 'Econometrics',
-          description: "Nanjing Audit University, Fall 2021–2024 | BA",
+          description: "Nanjing Audit University, 2021 Fall–2024 Fall | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/econometrics/";
             },},{id: "teachings-international-investment-amp-risk-control",
@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/teachings/investment/";
             },},{id: "teachings-principles-of-macroeconomics",
           title: 'Principles of Macroeconomics',
-          description: "University of Oklahoma, Fall 2013–2015 | BA",
+          description: "University of Oklahoma, 2013 Fall–2015 Fall | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/macro/";
             },},{id: "teachings-management",
