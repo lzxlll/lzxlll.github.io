@@ -6,20 +6,6 @@ cv:
   summary: Associate Professor in Economics at Nanjing Audit University. Research on digital economy, industrial organization, and labor economics.
 
   sections:
-    Education:
-      - institution: University of Oklahoma
-        location: Norman, USA
-        area: Economics
-        studyType: Ph.D.
-        start_date: 2011
-        end_date: 2016
-      - institution: Yunnan Normal University
-        location: Yunnan, China
-        area: Economics
-        studyType: B.A.
-        start_date: 2007
-        end_date: 2011
-
     Experience:
       - company: Nanjing Audit University
         position: Associate Professor, Joint Research Institute
@@ -39,44 +25,6 @@ cv:
         start_date: 2016
         end_date: 2019
         summary: Taught undergraduate courses and conducted research in economics.
-
-    Working Papers:
-      - title: "Data-Driven Vertical Integration: Evidence from Large-Scale Job Postings"
-        date: 2026
-        summary: "With Zhiyuan Chen, Fuxin Zhai, Yaoyu Chih. Revise and Resubmit at Management Science."
-      - title: "Learning without Experience: Data Technology and Firm Scope"
-        date: 2026
-        summary: "With Liang Chen, Zhiyuan Chen. Revise and Resubmit at Strategic Management Journal."
-      - title: "数字技术应用何以统筹公共安全：理论与大数据的经验分析"
-        date: 2025
-        summary: "With Chong Peng (Chongqing University) & Weizeng Sun (Nanjing Audit University). Under Review."
-      - title: "Data Technology and Asymmetric Vertical Integration: Evidence from Large-Scale Job Postings"
-        date: 2025
-        summary: "Solo Authored. Under Review."
-      - title: "Too Far and Too Dangerous: How Consumers Respond to Travel Time and Crime"
-        date: 2024
-        summary: "With Yao-yu Chih (Texas State University) & Sun Lee (Montclair State University). Draft upon Request."
-      - title: "Too Much Trust To Adopt The AI Thrust: A Social Embeddedness Framework of Social Trust and Firms' AI Adoption"
-        date: 2024
-        summary: "With Han Jiang (Chinese University of Hong Kong, Shenzhen), Liang Chen (Singapore Management University), & Zhiyuan Chen (Renmin University of China). Draft upon Request."
-      - title: "The Uneven Reach of Skill-Biased Technology: Organizational Scalability and Occupational Labor Demand"
-        date: 2024
-        summary: "With Zhiyuan Chen (Renmin University of China) & Xiangyu Feng (Xiamen University). Draft upon Request."
-      - title: "数据技术采纳与技能溢价地区差异：基于微观估计的宏观技能要素替代弹性视角"
-        date: 2024
-        summary: "With Zhiyuan Chen (Renmin University of China), Xiangyu Feng (Xiamen University), & Yunzhou Shang (Renmin University of China). Work in Progress."
-      - title: "AI from the Production Side"
-        date: 2024
-        summary: "With Zhiyuan Chen (Renmin University of China) & Xiao Han (Chinese University of Hong Kong, Shenzhen). Work in Progress."
-      - title: "Human Capital Adjustment in Mergers and Acquisitions"
-        date: 2024
-        summary: "With Zhiyuan Chen (Renmin University of China) & Fuxin Zhai (Renmin University of China). Work in Progress."
-      - title: "Data Technology and Market Search"
-        date: 2024
-        summary: "With Zhiyuan Chen (Renmin University of China), Liang Chen (Singapore Management University) & Man Zhang (Singapore Management University). Work in Progress."
-      - title: "Airline's Response to Temporary and Permanent Shocks"
-        date: 2024
-        summary: "With Qihong Liu (University of Oklahoma) & Davide Proserpio (USC). Work in Progress."
 
     Publications:
       - title: "中国专利质量的测度、变化机制与经济增长效应"
@@ -120,31 +68,6 @@ cv:
         date: 2014
         awarder: University of Oklahoma
         summary: "2014–2015"
-
-    Certificates:
-      - title: "Patent Quality Measurement Method and System Based on Patent Text Similarity"
-        date: 2025
-        summary: "Invention Patent, Register No. 202511435652.2. Inventors: Zhiyuan Chen, Zexuan Liu, & Xiangyang Zhao. Under Substantive Examination."
-      - title: "An Occupation Classification System Based on Large Language Models"
-        date: 2024
-        summary: "Computer Software Copyright, Register No. 2024SR1136466."
-
-    Teaching:
-      - title: "Econometrics"
-        date: 2021
-        summary: "Nanjing Audit University, BA, 2021 Fall–2025 Fall (×9)"
-      - title: "International Investment and Risk Control"
-        date: 2021
-        summary: "Nanjing Audit University, Master, 2021 Fall (×1)"
-      - title: "Modelling and Data Analysis"
-        date: 2017
-        summary: "Tianjin University of Finance and Economics, BA, 2017 Fall–2018 Fall (×2)"
-      - title: "Data Analysis"
-        date: 2017
-        summary: "Tianjin University of Finance and Economics, BA, in English, 2017 Fall–2018 Fall (×2)"
-      - title: "Principles of Macroeconomics"
-        date: 2013
-        summary: "University of Oklahoma, BA, in English, Discussion Section Instructor (×9) & Instructor (×1), 2013 Fall–2015 Summer"
 
     Skills:
       - name: Research Methods
