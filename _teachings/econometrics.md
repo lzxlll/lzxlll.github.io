@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Econometrics
-description: "Nanjing Audit University, Fall 2021–2024 | BA"
+description: "Nanjing Audit University, 2021 Fall–2024 Fall | BA"
 importance: 1
 category: Nanjing Audit University
 year: 2021
 term: Fall
 ---
 
-Undergraduate (BA) course covering econometric methods and applications. Taught at Nanjing Audit University for four consecutive years (Fall 2021–2024).
+Undergraduate (BA) course covering econometric methods and applications. Taught at Nanjing Audit University for four consecutive semesters (2021 Fall–2024 Fall).

@@ -17,18 +17,18 @@ nav_order: 2
 
 ---
 
-## Working Papers
-
-- **The Impact of Firms' Data-oriented Organizational Capital on Their Resilience to Shocks** (with Liang Chen and Yaoyu Chih)
-- **How does AI and Data Technology Affect Occupational Skills and Tasks Content** (with Yao-Yu Chih and Pallab Ghosh)
-
----
-
 ## Published Papers
 
 <div class="publications">
 {% bibliography --query @article %}
 </div>
+
+---
+
+## Working Papers
+
+- **The Impact of Firms' Data-oriented Organizational Capital on Their Resilience to Shocks** (with Liang Chen and Yaoyu Chih)
+- **How does AI and Data Technology Affect Occupational Skills and Tasks Content** (with Yao-Yu Chih and Pallab Ghosh)
 
 ---
 

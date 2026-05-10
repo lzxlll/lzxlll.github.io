@@ -108,28 +108,28 @@ cv:
     Teaching:
       - title: "Econometrics"
         date: 2021
-        summary: "Nanjing Audit University, BA, Fall 2021–2024"
+        summary: "Nanjing Audit University, BA, 2021 Fall–2024 Fall"
       - title: "International Investment & Risk Control"
         date: 2021
-        summary: "Nanjing Audit University, BA, Fall 2021"
+        summary: "Nanjing Audit University, BA, 2021 Fall"
       - title: "Data Analysis"
         date: 2018
-        summary: "Tianjin University of Finance & Economics, BA, Spring 2018"
+        summary: "Tianjin University of Finance & Economics, BA, 2018 Spring"
       - title: "Management"
         date: 2018
-        summary: "Tianjin University of Finance & Economics, BA, Spring 2018"
+        summary: "Tianjin University of Finance & Economics, BA, 2018 Spring"
       - title: "Modelling & Data Analysis"
         date: 2017
-        summary: "Tianjin University of Finance & Economics, BA, Fall 2017"
+        summary: "Tianjin University of Finance & Economics, BA, 2017 Fall"
       - title: "Data Processing and Analysis in Economics"
         date: 2019
-        summary: "Tianjin University of Finance & Economics, BA, 2019–2020"
+        summary: "Tianjin University of Finance & Economics, BA, 2019-2020"
       - title: "Principles of Macroeconomics"
         date: 2013
-        summary: "University of Oklahoma, BA, Fall 2013–2015"
+        summary: "University of Oklahoma, BA, 2013 Fall–2015 Fall"
       - title: "Calculus"
         date: 2012
-        summary: "University of Oklahoma, BA, Fall 2012"
+        summary: "University of Oklahoma, BA, 2012 Fall"
 
     Skills:
       - name: Research Methods
