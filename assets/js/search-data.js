@@ -39,29 +39,44 @@ ninja.data = [{
           section: "News",},{id: "news-learning-without-experience-data-technology-and-firm-scope-received-revise-and-resubmit-at-strategic-management-journal",
           title: '“Learning without Experience: Data Technology and Firm Scope” received Revise and Resubmit at...',
           description: "",
-          section: "News",},{id: "teachings-data-analysis",
+          section: "News",},{id: "teachings-calculus",
+          title: 'Calculus',
+          description: "University of Oklahoma, Fall 2012 | BA",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/calculus/";
+            },},{id: "teachings-data-analysis",
           title: 'Data Analysis',
-          description: "Tianjin University of Finance &amp; Economics, Spring 2018",
+          description: "Tianjin University of Finance &amp; Economics, Spring 2018 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-analysis/";
+            },},{id: "teachings-data-processing-and-analysis-in-economics",
+          title: 'Data Processing and Analysis in Economics',
+          description: "Tianjin University of Finance &amp; Economics, 2019–2020 | BA",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-processing/";
             },},{id: "teachings-econometrics",
           title: 'Econometrics',
-          description: "Nanjing Audit University, Fall 2021-2024",
+          description: "Nanjing Audit University, Fall 2021–2024 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/econometrics/";
             },},{id: "teachings-international-investment-amp-risk-control",
           title: 'International Investment &amp;amp; Risk Control',
-          description: "Nanjing Audit University, Fall 2021",
+          description: "Nanjing Audit University, Fall 2021 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/investment/";
             },},{id: "teachings-principles-of-macroeconomics",
           title: 'Principles of Macroeconomics',
-          description: "University of Oklahoma, 2013-2015",
+          description: "University of Oklahoma, Fall 2013–2015 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/macro/";
+            },},{id: "teachings-management",
+          title: 'Management',
+          description: "Tianjin University of Finance &amp; Economics, Spring 2018 | BA",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/management/";
             },},{id: "teachings-modelling-amp-data-analysis",
           title: 'Modelling &amp;amp; Data Analysis',
-          description: "Tianjin University of Finance &amp; Economics, Fall 2017",
+          description: "Tianjin University of Finance &amp; Economics, Fall 2017 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/modelling/";
             },},{
