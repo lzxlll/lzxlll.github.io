@@ -1,9 +1,12 @@
 ---
 layout: page
 title: International Investment and Risk Control
-description: "Nanjing Audit University, Fall 2021 | Master"
+description: "Nanjing Audit University, 2021 | Master"
 importance: 2
 category: Nanjing Audit University
+level: Graduate (Master)
+period: "2021 Fall"
+sessions: "×1"
 year: 2021
 term: Fall
 ---
