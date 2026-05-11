@@ -41,27 +41,27 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "teachings-data-analysis",
           title: 'Data Analysis',
-          description: "Tianjin University of Finance &amp; Economics, 2017–2018 | BA (in English)",
+          description: "Tianjin University of Finance &amp; Economics, Spring 2018 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-analysis/";
             },},{id: "teachings-econometrics",
           title: 'Econometrics',
-          description: "Nanjing Audit University, 2021–2025 | BA",
+          description: "Nanjing Audit University, 2021 Fall–2025 Fall | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/econometrics/";
             },},{id: "teachings-international-investment-and-risk-control",
           title: 'International Investment and Risk Control',
-          description: "Nanjing Audit University, 2021 | Master",
+          description: "Nanjing Audit University, Fall 2021 | Master",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/investment/";
             },},{id: "teachings-principles-of-macroeconomics",
           title: 'Principles of Macroeconomics',
-          description: "University of Oklahoma, 2013–2015 | BA (in English)",
+          description: "University of Oklahoma, 2013 Fall–2015 Summer | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/macro/";
-            },},{id: "teachings-modelling-and-data-analysis",
-          title: 'Modelling and Data Analysis',
-          description: "Tianjin University of Finance &amp; Economics, 2017–2018 | BA",
+            },},{id: "teachings-modelling-amp-data-analysis",
+          title: 'Modelling &amp;amp; Data Analysis',
+          description: "Tianjin University of Finance &amp; Economics, Fall 2017 | BA",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/modelling/";
             },},{
