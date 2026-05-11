@@ -1,12 +1,9 @@
 ---
 layout: page
 title: Principles of Macroeconomics
-description: "University of Oklahoma, 2013–2015 | BA (in English)"
+description: "University of Oklahoma, 2013 Fall–2015 Summer | BA"
 importance: 5
 category: University of Oklahoma
-level: Undergraduate (BA)
-period: "2013 Fall – 2015 Summer"
-sessions: "×9 (Discussion Section) + ×1 (Instructor of Record)"
 year: 2013
 term: Fall
 ---
